@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Style 3 — Bold & Dark</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+  .card { max-width: 560px; width: 90%; }
+  .label { font-size: 11px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #4ade80; margin-bottom: 12px; }
+  h1 { font-size: 36px; font-weight: 800; color: #ffffff; margin-bottom: 6px; }
+  .sub { color: #6b7280; font-size: 15px; margin-bottom: 48px; }
+  .question-box { border: 1px solid #27272a; border-radius: 16px; padding: 36px; margin-bottom: 32px; background: #111111; }
+  .question-box p { font-size: 22px; font-weight: 600; color: #f4f4f5; line-height: 1.5; }
+  .btn { background: #4ade80; color: #0a0a0a; font-size: 15px; font-weight: 800; padding: 16px 40px; border-radius: 12px; border: none; cursor: pointer; letter-spacing: 0.02em; }
+  .hint { margin-top: 16px; font-size: 13px; color: #3f3f46; }
+</style>
+</head>
+<body>
+<div class="card">
+  <p class="label">⬡ WhitePandas</p>
+  <h1>This week's question.</h1>
+  <p class="sub">Start the standup right.</p>
+  <div class="question-box">
+    <p>If you had to eat only one dish for the rest of your life, what would it be?</p>
+  </div>
+  <button class="btn">GENERATE ANOTHER →</button>
+  <p class="hint">Don't love it? Keep generating.</p>
+</div>
+</body>
+</html>
